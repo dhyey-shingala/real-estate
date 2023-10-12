@@ -19,12 +19,12 @@ const userSchema = new mongoose.Schema(
     avatar: {
       type: String,
       default:
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0pjT-wCf5i4P6bVCL307hwAAAA%26pid%3DApi&f=1&ipt=ddec6be26b5d7f1c12b226dd7af1cd20a12389a663c6315305a0e85c72964d63&ipo=images",
+        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
     },
   },
   { timestamps: true }
 );
 
-const User = mongoose.model('User', userSchema);
+const User = mongoose.model("User", userSchema);
 
 export default User;
